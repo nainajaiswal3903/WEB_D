@@ -1,0 +1,54 @@
+h1{
+    color: #9cedb0;
+    background-color: rgb(9, 75, 132);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    animation-play-state: inherit;
+}
+h2,h3,h4{
+    text-align: Left;
+    color: rgb(225, 177, 32);
+    font-style: oblique;
+    font-style: bold;
+    
+}
+table, td, th, tr{
+    border-style: solid;
+    background-color: #5aef7f;
+    column-width: 60px;
+}
+th{
+    background-color: bisque;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 40px;
+}
+header{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+
+}
+footer{
+    text-align: center;
+    color: rgb(135, 169, 218);
+    font-size: 40px;
+}
+ul{
+    font-size: 20Px;
+    color: rgb(176, 171, 30);
+    border: solid;
+    background-color: rgb(241, 237, 193);
+}
+ol{
+    font-size: 20Px;
+    color: rgba(104, 27, 176, 0.582);
+    background-color: rgb(200, 238, 238);
+}
+.ss{
+    font-size: 20px;
+    color: rgb(44, 44, 116);
+    border: solid;
+    background-color: rgb(223, 186, 186);
+}
