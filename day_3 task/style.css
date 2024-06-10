@@ -1,0 +1,140 @@
+body{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+header{
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    font-style: bold;
+}
+#paragraph{
+    text-align: center;
+}
+
+#hello{
+    text-align: center;
+    border: solid;
+    border-style: groove; 
+    border-radius: 5%;
+    box-shadow: 0 4px 8px  rgba(0,0,0,30); 
+}
+
+#mobile, #Password{
+    padding-left: 175px;
+    text-align: left;
+}
+.Gender {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gender {
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 100px;
+    height: 38px;
+    text-align: left;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 2.5px;
+}
+
+#gender:hover {
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
+  }
+
+p{
+    text-align: center;
+}
+#h22{
+    text-align: justify;
+    font-size: 15px;
+}
+h1, h2{
+    padding-left: 15%;
+}
+#date, #month, #year{
+    padding-left: 10px ;
+}
+label{
+    cursor: pointer;
+}
+#para{
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#sign{
+    background-color: rgb(77, 196, 37);
+    color: white;
+    border-color: rgb(77, 196, 37);
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 2.5px;
+}
+#sign:hover {
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
+  }
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+/* .................. */
+#hi
+{
+    text-align: center;
+    border: solid;
+    border-style: groove; 
+    border-radius: 5%;
+    box-shadow: 0 4px 8px  rgba(0,0,0,30);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#login{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    width: 340px;
+    height: 38px;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 2.5px;
+}
+#login:hover {
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
+  }
+
+#New{
+    text-align: center;
+    background-color: rgb(77, 196, 37);
+    color: white;
+    border-color: rgb(77, 196, 37);
+    width: 200px;
+    height: 38px;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 2.5px;
+}
+#New:hover {
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
+  }
