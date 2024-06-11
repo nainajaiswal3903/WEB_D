@@ -10,6 +10,7 @@ header{
 }
 #paragraph{
     text-align: center;
+    font-size: large;
 }
 
 #hello{
@@ -52,6 +53,7 @@ p{
 #h22{
     text-align: justify;
     font-size: 15px;
+    width: 100px;
 }
 h1, h2{
     padding-left: 15%;
@@ -120,7 +122,9 @@ footer{
 #login:hover {
     box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
   }
-
+h5{
+    color: blue;
+}
 #New{
     text-align: center;
     background-color: rgb(77, 196, 37);
@@ -138,3 +142,13 @@ footer{
 #New:hover {
     box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
   }
+
+
+  
+/* .................. */
+#prg
+{
+    text-align: justify;
+    padding-right: 25px;
+    padding-left: 25px;
+}
