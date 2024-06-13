@@ -8,16 +8,19 @@ header{
     background-color: black;
 }
 nav{
-    color: aliceblue;
+    color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1144px;
     margin: auto;
+    font-style: italic;
+    
 }
 #logo{
     padding: 1rem;
     font-weight: 900;
+    color: aqua;
     text-transform: uppercase;
 }
 .links{
@@ -38,5 +41,4 @@ nav{
 }
 .links a:hover{
     background-color: rgb(2, 2, 247);
-    text-decoration: none;
 }

@@ -6,12 +6,70 @@ header{
     text-align: center;
     color: blue;
     font-size: 60px;
-    font-style: bold;
 }
+#abc{
+    background-color: rgb(255, 255, 255);
+    width: 175px;
+    height: 30px;
+    border-style: ridge;
+    text-align: Left;
+    border-radius: 8px;
+    align-items: Left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textNumberInput{  
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 30px;
+    border-style: ridge;
+    text-align: Left;
+    border-radius: 8px;
+    align-items: Left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav{
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1144px;
+    margin: auto;
+    font-style: italic;
+    
+}
+#logo{
+    padding: 1rem;
+    font-weight: 900;
+    color: aqua;
+    text-transform: uppercase;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    color: yellow;
+    text-decoration: underline;
+    padding:1rem ;
+    transition:all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition:all 0.5s ;
+    transform-box: all 0.5s ;
+    -o-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.links a:hover{
+    background-color: rgb(2, 2, 247);
+}
+
 #paragraph{
     text-align: center;
     font-size: large;
-}
+} */
 
 #hello{
     text-align: center;
@@ -19,6 +77,7 @@ header{
     border-style: groove; 
     border-radius: 5%;
     box-shadow: 0 4px 8px  rgba(0,0,0,30); 
+    margin-left: 20px;
 }
 
 #mobile, #Password{
@@ -32,15 +91,16 @@ header{
 
 #gender {
     border: solid rgba(194, 192, 190, 0.183);
-    width: 100px;
+    width: 105px;
     height: 38px;
     text-align: left;
     border-radius: 8px;
     align-items: center;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     cursor: pointer;
     margin: 2.5px;
+    box-shadow: 0 4px 8px  rgba(0,0,0,20)
 }
 
 #gender:hover {
@@ -55,8 +115,20 @@ p{
     font-size: 15px;
     width: 100px;
 }
+#date{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 30px;
+    border-style: ridge;
+    text-align: Left;
+    border-radius: 8px;
+    align-items: Left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1, h2{
     padding-left: 15%;
+    margin-left: 20px;
 }
 #date, #month, #year{
     padding-left: 10px ;
@@ -86,6 +158,10 @@ label{
 #sign:hover {
     box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
   }
+#checkbox{
+    text-align: justify;
+    margin-left: 70px;
+}
 footer{
     text-align: center;
     padding-top: 50px;
